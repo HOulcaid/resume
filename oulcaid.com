@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name example.com www.example.com;
+    server_name oulcaid.com www.oulcaid.com;
 
     location / {
         proxy_pass http://localhost:8888;  # Adjust this if your Docker container runs on a different port
